@@ -99,7 +99,8 @@ body {
   letter-spacing: 0.03em;
 }
 /* Чем мы занимаемся */
-.section-title {
+.section-title,
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -110,13 +111,7 @@ body {
 .team {
   background: var(--button-bg-color);
 }
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
+
 .team-pic .title {
   font-weight: 500;
   font-size: 16px;
