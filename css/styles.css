@@ -12,14 +12,17 @@ body {
   background-color: var(--primary-bg-color);
   font-family: 'Roboto', sans-serif;
 }
-li {
-  list-style-type: none;
-}
 /* Шапка сайта */
 .page-header .inner {
   color: var(--primary-text-color);
 }
-
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* логотип */
 .logo {
   color: var(--accent-color);
   font-family: raleway;
@@ -27,33 +30,34 @@ li {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
-.site-nav .link {
+/* навигация */
+
+.site-nav {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav:hover,
+.site-nav:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.site-nav .current {
   color: var(--accent-color);
 }
-.site-contacts .link {
+/* контакты */
+
+.site-contacts {
   color: var(--header-contacts-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
-.site-contacts .link:hover,
-.site-contacts .link:focus {
+.site-contacts:hover,
+.site-contacts:focus {
   color: var(--accent-color);
 }
 /* Герой */
@@ -78,34 +82,48 @@ li {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
-/* Преимущества */
-.advantages-list .title {
-  color: var(--primary-text-color);
+
+.benefits .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.advantages-list .text {
+.benefits .text {
   color: var(--header-contacts-text-color);
   font-size: 14px;
   line-height: 2;
+  letter-spacing: 0.03em;
+}
+/* Чем мы занимаемся */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 /* Наша команда */
 .team {
   background: var(--button-bg-color);
 }
-.team-list .title {
-  color: var(--primary-text-color);
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-pic .title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-.team-list .text {
+.team-pic .text {
   color: var(--header-contacts-text-color);
   font-size: 16px;
   line-height: 19px;
@@ -113,30 +131,36 @@ li {
 }
 
 /* Кнопки портфолио */
+
 .main-btn .link {
-  color: var(--primary-text-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .main-btn .link:hover,
 .main-btn .link:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.main-btn .link.current {
+.main-btn .link:current {
   color: var(--accent-color);
 }
+/* Примеры работ */
 
-.section-title {
-  color: var(--primary-text-color);
+.section-examples .title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.section-examples .text {
+  color: var(--header-contacts-text-color);
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
 /*Подвал */
@@ -146,15 +170,14 @@ li {
 .page-footer .inner {
   color: var(--primary-white-color);
 }
-.page-footer .link {
+.page-footer .map {
   color: var(--primary-white-color);
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
-.page-footer .link:hover,
-.page-footer .link:focus {
+.page-footer .map:hover,
+.page-footer .map:focus {
   color: var(--accent-color);
 }
 .page-footer .info {
@@ -162,7 +185,6 @@ li {
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .page-footer .info:hover,
 .page-footer .info:focus {
