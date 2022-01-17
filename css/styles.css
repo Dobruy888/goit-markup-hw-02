@@ -121,12 +121,11 @@ body {
 .team-pic .text {
   color: var(--header-contacts-text-color);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
 /* Кнопки портфолио */
-
 .main-btn .link {
   font-family: inherit;
   font-weight: 500;
