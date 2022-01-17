@@ -145,7 +145,6 @@ body {
   color: var(--accent-color);
 }
 /* Примеры работ */
-
 .section-examples .title {
   font-weight: 700;
   font-size: 18px;
@@ -167,6 +166,7 @@ body {
 }
 .page-footer .map {
   color: var(--primary-white-color);
+  font-style: normal;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
@@ -177,6 +177,7 @@ body {
 }
 .page-footer .info {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
